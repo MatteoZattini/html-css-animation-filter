@@ -119,10 +119,6 @@
     animation: topwhite 3s linear;
 }
 
-.ex-12-button .ex-12-top-white{
-    animation: topwhite 3s linear;
-}
-
 @keyframes topwhite{
     0% {
         left: 0;
@@ -146,4 +142,29 @@
 }
 
 /* esercizio 13 */
+.ex-13-button .ex-13-top-white{
+    animation: topwhitefull 3s linear;
+}
 
+@keyframes topwhitefull{
+    0%{
+        left: 10%;
+        top: -10px;
+    }
+    25%{
+        left: calc(100% - 60px);
+        top: -10px;
+    }
+    50%{
+        left: ;
+        top: ;
+    }
+    75%{
+        left: ;
+        top: ;
+    }
+    100%{
+        left: 10%;
+        top: -10px;
+    }
+}
