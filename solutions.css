@@ -86,5 +86,64 @@
     transform: scale(1.5);
 }
 
+/* esercizo 10 */
+.ex-10-icon{
+    animation: spin 3s linear infinite;
+}
 
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+/* esercizio 11 */
+.ex-11-icon:hover{
+    animation: spin2 3s linear;
+}
+
+@keyframes spin2{
+    0%{
+        transform: rotate(0);  
+    }
+    90% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* esercizio 12 */
+.ex-12-button .ex-12-top-white{
+    animation: topwhite 3s linear;
+}
+
+.ex-12-button .ex-12-top-white{
+    animation: topwhite 3s linear;
+}
+
+@keyframes topwhite{
+    0% {
+        left: 0;
+    }
+    100% {
+        left: calc(100% - 100px);
+    }
+}
+
+.ex-12-button .ex-12-bottom-white{
+    animation: bottomwhite 3s linear;
+}
+
+@keyframes bottomwhite{
+    0% {
+        right: 0;
+    }
+    100% {
+        right: calc(100% - 100px);
+    }
+}
+
+/* esercizio 13 */
 
